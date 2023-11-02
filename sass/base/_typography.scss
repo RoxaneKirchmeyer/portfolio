@@ -44,10 +44,25 @@ p {
     font-size: 1em;
 }
 
-@media screen and (max-width:391px) {
+@media screen and (max-width:391px) and (max-width: 1023px) {
 
-h2, h3 {
-    text-align: center;
-    padding: 0;
-}
+    h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .blue {
+        h2 {
+            text-align: center;
+            padding: 0;
+            display: block;
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center;
+            padding: 0;
+            display: block;
+        }
+    }   
 }

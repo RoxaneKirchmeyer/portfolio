@@ -55,10 +55,21 @@ p {
   font-size: 1em;
 }
 
-@media screen and (max-width: 391px) {
-  h2, h3 {
+@media screen and (max-width: 391px) and (max-width: 1023px) {
+  h2 {
+    text-align: center;
+    width: 100%;
+  }
+  .blue h2 {
     text-align: center;
     padding: 0;
+    display: block;
+    text-align: center;
+  }
+  .blue h3 {
+    text-align: center;
+    padding: 0;
+    display: block;
   }
 }
 main .blue {
@@ -221,7 +232,7 @@ main #skills h2 {
 }
 @media only screen and (min-width: 392px) and (max-width: 1023px) {
   main {
-    width: 1024px;
+    width: 1051px;
   }
   main .black {
     padding: 1rem 0;
@@ -293,11 +304,6 @@ nav a:hover {
     height: 460px;
     z-index: 9998;
     background-color: #8DA7BE;
-  }
-}
-@media screen and (max-width: 1024px) {
-  nav {
-    width: 1024px;
   }
 }
 header figure {
