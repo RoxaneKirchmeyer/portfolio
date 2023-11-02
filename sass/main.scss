@@ -1,0 +1,23 @@
+//utils = variables, mixins, functions
+@import "./utils/colors";
+
+//base = global style (margin, padding, fonts, etc...) and normalize.
+@import "./base/reset";
+@import "./base/typography";
+@import "./base/base";
+
+//layout = re-usable elements (header, footer, form, etc...)
+@import "./layout/nav";
+@import "./layout/header";
+@import "./layout/form";
+@import "./layout/footer";
+
+//components = re-usable elements smaller than layout (button, inputs, icons, etc...)
+@import "./components/buttons";
+@import "./components/inputs";
+@import "./components/menu-burger";
+@import "./components/bars";
+
+//themes = themes styles (holiday, admin, etc..)
+
+//vendors = styles from other people (bootstrap, etc...)

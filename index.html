@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sass/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+
+<body> 
+    <header>
+        <div id="btn-burger">☰</div>
+        <nav class="main-nav-burger">
+            <figure>
+                <a href="#welcome"><img src="../img/logo.jpg" alt="Logo RK"/></a>
+                <a href="#welcome" class="logohover"><img src="../img/logo1.jpg" alt="Logo RK"/></a>
+            </figure>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <div>
+                <h1 id='welcome'>Welcome</h1>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        In ut est dictum, tristique sem eu, iaculis velit.
+                        Proin vel aliquet dolor, ac blandit nulla.
+                        Pellentesque ut sapien facilisis, dignissim nisl nec, aliquet diam.
+                        Quisque semper sit amet odio eu varius.
+                        </p>
+            </div>
+                                        
+                <figure>
+                    <img src="../img/welcome.png" alt="Welcome"/>
+                </figure>                  
+        </section>
+    </header>
+
+    <main>
+        <section class="blue">
+            <article>
+                <h2 id="projects">My projects</h2>
+                <h3>Eurové<span>lo 5</span></h3>
+
+                <div class="black">
+                    <figure>
+                        <img src="../img/eurovelo.jpg" alt=""/>
+                    </figure>
+                    <figure>
+                        <img src="../img/eurovelo1.jpg" alt="" />
+                    </figure>
+                </div>
+
+                <p>
+                EuroVelo 5 (EV5), named the Via Romea Francigena, is a 3,900 km 
+                (2,400 mi) long EuroVelo long-distance cycling route running from 
+                Canterbury to Rome and ending at the Italian port of Brindisi. 
+                The route crosses Europe passing successively through six countries: 
+                UK, France, Belgium, Luxembourg, France again, Switzerland and Italy.
+                </p>
+            </article>
+
+            <article>
+                <h3>Ducs<span>man</span></h3>
+                <div>
+                <figure>
+                        <img src="../img/ducsman.jpg" alt=""/>
+                    </figure>
+                    <figure>
+                        <img src="../img/ducsman1.jpg" alt="" />
+                    </figure>
+                </div>
+                <p>
+                The best hotel in North of France. 
+                Ducsman is the perfect mix between ancient architecture and modern 
+                design was established in 15th century monument. Situated between the Town 
+                Hall and Beaux Art Museum, 5 mn to Zenith Arena and Grand Palais Exhibition Center. 
+                Less than 90mn from Bruges, Brussels, Paris, London. Unique in Lille, 
+                gardens and heated swimming pool offer...
+                </p>
+            </article>
+
+            <article>
+                <h3>Squedr<span>ong</span></h3>
+                <div class="black">
+                <figure>
+                        <img src="../img/squedrong.jpg" alt=""/>
+                    </figure>
+                    <figure>
+                        <img src="../img/squedrong1.jpg" alt="" />
+                    </figure>
+                </div>
+                <p>Squedrong is a blogger and a web designer.</p>
+            </article>
+        </section>
+
+        <section class="white" id="aboutMe">
+            <h2 id="about">About</h2>
+            <p class="white">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Animi aliquam expedita enim nisi autem dolores perspiciatis mollitia 
+                nam nemo distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quos, officia.
+            </p>
+            <img src="../img/about.png" alt=""/>
+        </section>    
+
+        <section class="white" id="training">
+            <h2>Training courses</h2>
+
+                <div class="simplon">
+                    <figure class="school">
+                        <img src="../img/simplon.png" alt="Simplon"/>
+                        <figcaption>Web integrator developer</figcaption>
+                    </figure>
+                    <div id="myProgress">
+                        <div id="simplonBar">100%</div>
+                    </div>
+                </div>
+
+                <div class="afci">
+                    <figure class="school">
+                        <img src="../img/afci.jpg" alt="AFCI"/>
+                        <figcaption>Mobile web  / web developer</figcaption>
+                    </figure>
+                    <div id="myProgress">
+                        <div id="afciBar">2%</div>
+                    </div>
+                </div>
+        </section>    
+
+        <section class="blue" id="skills">
+            <h2>Skills</h2>
+
+            <figure>
+                <img src="../img/skills.jpg" alt="" />
+            </figure>
+        </section>
+
+        <section class="form">
+            <h2 id="contact">Let's stay in touch !</h2>
+
+            <p><i class="fa-regular fa-message fa-beat-fade"></i> Leave a message here</p>
+            <form>
+                <p>
+                    <label for="surname">Surname :</label>
+                    <input type="text" placeholder="Your surname here ..."/>
+                </p>
+
+                <p>
+                    <label for="name">Name :</label>
+                    <input type="text" placeholder="Your name here ..."/>
+                </p>
+
+
+                <p>
+                    <label for="email">Email :</label>
+                    <input type="email" placeholder="Your e-mail here ..."/>
+                </p>
+
+
+                <p>
+                    <label for="message">Message :</label>
+                    <textarea placeholder="Your message here ..."></textarea>
+                </p>
+
+
+                <button type="submit">Send <i class="fa-solid fa-arrow-right fa-bounce"></i></button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <a href="https://github.com/RoxaneKirchmeyer"><i class="fa-brands fa-github fa-fade" ></i></a>
+            <a href="#"><i class="fa-solid fa-envelope fa-fade"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook fa-fade"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin fa-fade"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter fa-fade"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram fa-fade"></i></a>
+        </div>
+
+            <p>&copy; Kirchmeyer Roxane 2023</p>
+        </footer>
+
+        <script src="https://kit.fontawesome.com/5ed833e0c5.js" crossorigin="anonymous"></script>
+        <script src="menuBurger.js"></script>
+    </body>
+    </html>

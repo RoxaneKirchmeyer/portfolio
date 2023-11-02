@@ -1,0 +1,72 @@
+#myProgress {
+    background-color: $lightGrey;
+    width: 100%;
+    border: solid 2px $black;
+    padding: 0;
+    position: relative;
+
+    .simplon {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .afci {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+
+    #afciBar {
+        background-color: $afciBlue;
+        width: 3%;
+        font-family: $fontText;
+        font-weight: 700;
+        text-align: center;
+        color: $white; 
+        font-size: 1.5rem;
+        padding: 0;
+    
+    }
+    
+    #afciBar {
+        width: 0;
+        height: 100%;
+        background-color: $afciBlue;
+        animation: loading-afci 2s infinite;
+    }
+    
+    @keyframes loading-afci {
+        0% {
+            width: 0;
+        }
+        100% {
+            width: 2%;
+        }
+    }
+    #simplonBar {
+        background-color: $simplonRed;
+        width: 100%;
+        color: $white;    
+        font-family: $fontText;
+        font-weight: 700;
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 0;
+    }
+    
+    #simplonBar {
+        width: 0;
+        height: 100%;
+        background-color: $simplonRed;
+        animation: loading-simplon 5s infinite;
+    }
+    
+    @keyframes loading-simplon {
+        0% {
+            width: 0;
+        }
+        100% {
+            width: 100%;
+        }
+    }
+}

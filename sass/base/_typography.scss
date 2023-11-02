@@ -1,0 +1,53 @@
+// couleurs textes
+$textDarkBackground : $white;
+$textLightBackground : $black;
+
+// polices textes
+
+$fontText : 'Montserrat', sans-serif;
+// $fontText : 2rem;
+$fontTitle : 'Oooh Baby', cursive;
+
+//  style titres
+
+h1 {
+    font-family: $fontTitle;
+    font-size: 4.5rem;
+    color: $textLightBackground;
+    margin: 1em 0;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: $fontTitle;
+    font-size: 3.5rem;
+    font-weight: normal;
+    margin: 1em 0;
+}
+
+h3 {
+    width: 100%;
+    font-family: $fontTitle;
+    font-size: 3.2rem;
+    font-weight: normal;
+    text-shadow: 4px 2px 6px rgba(0, 0, 0, 1);
+    color: $textDarkBackground;
+    margin: 1em 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+p {
+    margin: 1em 0;
+    line-height: 1.5;
+    font-family: $fontText;
+    font-size: 1em;
+}
+
+@media screen and (max-width:391px) {
+
+h2, h3 {
+    text-align: center;
+    padding: 0;
+}
+}

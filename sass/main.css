@@ -1,0 +1,640 @@
+html, body, div, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Oooh Baby", cursive;
+  font-size: 4.5rem;
+  color: #000000;
+  margin: 1em 0;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: "Oooh Baby", cursive;
+  font-size: 3.5rem;
+  font-weight: normal;
+  margin: 1em 0;
+}
+
+h3 {
+  width: 100%;
+  font-family: "Oooh Baby", cursive;
+  font-size: 3.2rem;
+  font-weight: normal;
+  text-shadow: 4px 2px 6px rgb(0, 0, 0);
+  color: #FFFFFF;
+  margin: 1em 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+p {
+  margin: 1em 0;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+}
+
+@media screen and (max-width: 391px) {
+  h2, h3 {
+    text-align: center;
+    padding: 0;
+  }
+}
+main .blue {
+  background-color: #244461;
+  color: #FFFFFF;
+  padding: 2rem 0;
+}
+main p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  width: 65%;
+}
+main article {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+}
+main span {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  font-weight: 100;
+}
+main .black {
+  background-color: #000000;
+  padding: 2rem 0;
+}
+main .black img {
+  width: 1260px;
+  height: 500px;
+}
+main div {
+  background-color: #FFFFFF;
+  padding: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main div img {
+  width: 1260px;
+  height: 500px;
+}
+main .white {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 2em;
+}
+main .white img {
+  width: 900px;
+  height: 500px;
+}
+main #projects {
+  padding-top: 90px;
+}
+main #about {
+  padding-top: 90px;
+}
+main #aboutMe {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+main #aboutMe p {
+  width: 50%;
+}
+main #aboutMe img {
+  width: 50%;
+  height: 50%;
+}
+main #aboutMe h2 {
+  width: 100%;
+}
+main #training {
+  display: flex;
+  flex-direction: column;
+}
+main #training figure {
+  width: 100%;
+}
+main figure.school img {
+  width: 345px;
+  height: 236px;
+}
+main figcaption {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  padding: 0.5em 0;
+}
+main #skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+main #skills img {
+  width: 100%;
+  height: 100%;
+}
+main #skills h2 {
+  padding-left: 2em;
+}
+
+@media screen and (max-width: 1024px) {
+  main {
+    width: 1024px;
+  }
+  main .black {
+    padding: 1rem 0;
+  }
+  main .black figure img {
+    width: 837px;
+    height: 364px;
+  }
+  main div figure img {
+    width: 837px;
+    height: 364px;
+  }
+}
+@media screen and (max-width: 391px) {
+  /* Projects */
+  main {
+    /* About */
+    /* Training */
+    /* Skills */
+  }
+  main article {
+    width: 100%;
+  }
+  main .black {
+    padding: 1rem 0;
+  }
+  main .black figure img {
+    width: 100%;
+    height: auto;
+  }
+  main div {
+    padding: 1rem 0;
+  }
+  main div figure img {
+    width: 100%;
+    height: auto;
+  }
+  main p {
+    font-size: 1em;
+    text-align: center;
+    width: 100%;
+    margin-top: 4em;
+  }
+  main .white {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+  }
+  main #projects {
+    padding-top: 60px;
+  }
+  main #aboutMe img {
+    width: 100%;
+    height: 100%;
+  }
+  main #aboutMe p {
+    width: 100%;
+  }
+  main figure .school img {
+    width: 278px;
+    height: 204px;
+  }
+  main #skills h2 {
+    padding-left: 2.5em;
+  }
+  main #skills img {
+    width: 100%;
+    height: 100%;
+  }
+}
+nav {
+  background-color: #8DA7BE;
+  position: fixed;
+  width: 100%;
+  height: 85px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav figure {
+  opacity: 1;
+}
+nav figure img {
+  position: absolute;
+}
+nav .logohover {
+  transition: opacity 0.5s;
+  opacity: 0;
+}
+nav .logohover:hover {
+  opacity: 1;
+}
+nav a {
+  color: #000000;
+  transition: ease-in-out 1s;
+}
+nav a:hover {
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) {
+  nav {
+    width: 1024px;
+  }
+}
+@media screen and (max-width: 391px) {
+  nav img {
+    padding-left: 9em;
+    position: fixed;
+  }
+  nav ul {
+    z-index: 9998;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav li a {
+    font-size: 1.5em;
+    padding-left: 1.6em;
+    text-align: center;
+  }
+  .main-nav-burger {
+    display: none;
+  }
+  .main-nav-burger.visible {
+    display: block;
+    position: fixed;
+    width: 390px;
+    height: 460px;
+    z-index: 9998;
+    background-color: #8DA7BE;
+  }
+}
+header figure {
+  width: 85px;
+  height: 85px;
+}
+header img {
+  width: 85px;
+  height: 85px;
+  display: flex;
+}
+header ul {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 3em;
+  margin-right: 50px;
+}
+header li {
+  font-family: "Oooh Baby", cursive;
+  font-size: 2.5rem;
+  display: flex;
+}
+header section {
+  display: flex;
+  gap: 20%;
+  padding-bottom: 1em;
+  width: 90%;
+  margin: auto;
+}
+header section img {
+  width: 425px;
+  height: 400px;
+}
+header section figure {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 5em;
+  padding: 1em 0;
+  padding-top: 90px;
+}
+header div {
+  width: 80%;
+}
+header div #welcome {
+  padding-top: 90px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    width: 1024px;
+  }
+}
+@media screen and (max-width: 391px) {
+  header #welcome {
+    padding-top: 0.5em;
+    width: 100%;
+  }
+  header #welcome h1 {
+    padding: 0;
+  }
+  header section {
+    display: flex;
+    flex-direction: column;
+  }
+  header section div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 1rem;
+    flex-direction: column;
+  }
+  header section p {
+    font-size: 1.2em;
+    width: 100%;
+  }
+  header section figure {
+    padding: 0;
+    margin: 0;
+  }
+  header section img {
+    width: 349px;
+    height: 309px;
+  }
+}
+#contact {
+  padding-top: 90px;
+}
+
+.form {
+  width: 90%;
+  margin: auto;
+}
+.form form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+}
+.form form input {
+  color: #FFFFFF;
+  background-color: #244461;
+  min-width: 100%;
+  min-height: 30px;
+  margin-top: 10px;
+  border: none;
+  padding: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+.form form input:focus {
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+.form form input::-moz-placeholder {
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+.form form input::placeholder {
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+.form textarea {
+  color: #FFFFFF;
+  background-color: #244461;
+  min-width: 100%;
+  min-height: 300px;
+  margin-top: 10px;
+  padding: 1.5rem;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+.form textarea:focus {
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+.form textarea::-moz-placeholder {
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+.form textarea::placeholder {
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+
+button {
+  margin-top: 30px;
+  color: #FFFFFF;
+  padding: 1.5rem;
+  min-width: 50%;
+  background-color: #244461;
+  cursor: pointer;
+  border-radius: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  border: solid 5px #CDE6F5;
+}
+button:hover {
+  background-color: #CDE6F5;
+  color: #000000;
+  transition: ease-in-out 1s;
+  border: solid 5px #244461;
+}
+
+label {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 391px) {
+  .form form {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2em;
+  }
+  .form form input {
+    min-width: 0;
+  }
+  .form form textarea {
+    min-width: 0;
+  }
+}
+footer {
+  background-color: #CDE6F5;
+  padding: 1.5rem;
+}
+footer p {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1em;
+}
+footer div {
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+footer i {
+  font-size: 5em;
+  align-items: center;
+  color: #000000;
+}
+
+@media screen and (max-width: 1024px) {
+  footer {
+    padding: 1rem;
+    width: 1024px;
+  }
+  footer p {
+    justify-content: center;
+    margin: 0;
+    padding: 1.5em;
+  }
+  footer div {
+    width: 100%;
+    justify-content: center;
+  }
+  footer i {
+    font-size: 3em;
+  }
+}
+@media screen and (max-width: 391px) {
+  footer {
+    padding: 1rem;
+  }
+  footer p {
+    justify-content: center;
+    margin: 0;
+    padding: 1.5em;
+  }
+  footer div {
+    width: 100%;
+    justify-content: center;
+  }
+  footer i {
+    font-size: 3em;
+  }
+}
+#btn-burger {
+  display: none;
+}
+
+@media screen and (max-width: 391px) {
+  /* nav & btn burger */
+  #btn-burger {
+    display: block;
+    position: fixed;
+    font-size: 2.8em;
+    color: v #000000;
+    background-color: #8DA7BE;
+    z-index: 10000;
+    padding: 0.5rem;
+    width: 42px;
+    top: 0;
+    left: 0;
+  }
+  .main-nav-burger {
+    display: none;
+  }
+  .main-nav-burger .visible {
+    display: block;
+    position: fixed;
+    width: 390px;
+    height: 460px;
+    z-index: 9998;
+    background-color: #8DA7BE;
+  }
+}
+#myProgress {
+  background-color: #d9d9d9;
+  width: 100%;
+  border: solid 2px #000000;
+  padding: 0;
+  position: relative;
+}
+#myProgress .simplon {
+  display: flex;
+  flex-wrap: wrap;
+}
+#myProgress .afci {
+  display: flex;
+  flex-wrap: wrap;
+}
+#myProgress #afciBar {
+  background-color: #2C4B9D;
+  width: 3%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  padding: 0;
+}
+#myProgress #afciBar {
+  width: 0;
+  height: 100%;
+  background-color: #2C4B9D;
+  animation: loading-afci 2s infinite;
+}
+@keyframes loading-afci {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 2%;
+  }
+}
+#myProgress #simplonBar {
+  background-color: #D02036;
+  width: 100%;
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0;
+}
+#myProgress #simplonBar {
+  width: 0;
+  height: 100%;
+  background-color: #D02036;
+  animation: loading-simplon 5s infinite;
+}
+@keyframes loading-simplon {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}/*# sourceMappingURL=main.css.map */

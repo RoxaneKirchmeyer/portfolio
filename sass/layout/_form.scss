@@ -1,0 +1,109 @@
+#contact {
+    padding-top: 90px;
+}
+
+.form {
+    width: 90%;
+    margin: auto;
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 2rem;
+
+        input {
+            color: $white;
+            background-color: $blue;
+            min-width: 100%;
+            min-height: 30px;
+            margin-top: 10px;
+            border: none;
+            padding: 1.5rem;
+            font-family: $fontText;
+            font-size: 1.5rem; 
+
+            &:focus {
+                color: $white;
+                font-family: $fontText;
+                font-size: 1.5rem; 
+            }
+
+            &::placeholder {
+                color: $white;
+                font-family: $fontText;
+                font-size: 1.5rem;
+                }
+            }
+        }
+        
+        textarea {
+            color: $white;
+            background-color: $blue;
+            min-width: 100%;
+            min-height: 300px;
+            margin-top: 10px;
+            padding: 1.5rem;
+            border: none;
+            font-family: $fontText;
+            font-size: 1.5rem;
+
+                &:focus {
+                    color: $white;
+                    font-family: $fontText;
+                    font-size: 1.5rem; 
+                }
+
+                    &::placeholder {
+                        color: $white;
+                        font-family: $fontText;
+                        font-size: 1.5rem;
+                    }
+                }
+        }
+        
+        button {
+            margin-top: 30px;
+            color: $white;
+            padding: 1.5rem;
+            min-width: 50%;
+            background-color: $blue;
+            cursor: pointer;
+            border-radius: 30px;
+            font-family: $fontText;
+            font-size: 2rem;
+            border: solid 5px $lightBlue;
+
+            &:hover {
+                background-color: $lightBlue;
+                color: $black;
+                transition: ease-in-out 1s;
+                border: solid 5px $blue;
+            }
+            
+        }
+        
+        label {
+            font-size: 2rem;
+        }
+
+
+@media screen and (max-width:391px) {
+
+.form {
+
+    form {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 2em;
+
+        input {
+            min-width: 0;
+        }
+
+        textarea {
+            min-width: 0;
+        }
+    }  
+}
+}
