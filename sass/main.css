@@ -59,6 +59,7 @@ p {
   h2 {
     text-align: center;
     width: 100%;
+    padding: 0;
   }
   .blue h2 {
     text-align: center;
@@ -223,7 +224,7 @@ main #skills h2 {
     height: 204px;
   }
   main #skills h2 {
-    padding-left: 2.5em;
+    padding: 0;
   }
   main #skills img {
     width: 100%;
