@@ -34,12 +34,6 @@ nav {
     }
 }
 
-@media screen and (max-width: 1024px) {
-    nav {
-        width: 1024px;
-    }
-    
-}
 
 @media screen and (max-width:391px) {
 
@@ -80,4 +74,11 @@ nav {
                 background-color: $greyBlue;
     }
 }
+}
+
+@media screen and (max-width: 1024px) {
+    nav {
+        width: 1024px;
+    }
+    
 }

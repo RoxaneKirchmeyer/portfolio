@@ -57,22 +57,18 @@ header {
     }
 }
 
-@media screen and (max-width: 1024px) {
-    header {
-        width: 1024px;
-    }   
-}
-
 
 @media screen and (max-width:391px) {
 
 header {
-    #welcome {
-        padding-top: 0.5em;
-        width: 100%;
+    div {
+        #welcome {
+            padding-top: 0.5em;
+            width: 100%;
 
         h1 {
             padding: 0;
+        }
         }
     }
 
@@ -106,3 +102,10 @@ header {
     }
 }
 }
+
+@media only screen and (min-width: 392px) and (max-width: 1023px) {
+    header {
+        width: 1024px;
+    }   
+}
+

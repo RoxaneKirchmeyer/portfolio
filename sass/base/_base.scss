@@ -124,32 +124,6 @@ main {
     }
 }
 
-@media screen and (max-width: 1024px) {
-    main {
-        width: 1024px;
-
-        .black {
-            padding: 1rem 0;
-            figure {
-                img {
-                    width: 837px;
-                    height: 364px;
-                }
-            } 
-        }
-
-            div {
-                figure {
-                    img {
-                        width: 837px;
-                        height: 364px;
-                    }
-                }
-
-            }
-    }
-}
-
 
 @media screen and (max-width:391px) {
 
@@ -238,4 +212,30 @@ main {
         }
     }
 }
+}
+
+
+@media only screen and (min-width: 392px) and (max-width: 1023px) {
+    main {
+        width: 1024px;
+
+        .black {
+            padding: 1rem 0;
+            figure {
+                img {
+                    width: 837px;
+                    height: 364px;
+                }
+            } 
+        }
+
+            div {
+                figure {
+                    img {
+                        width: 837px;
+                        height: 364px;
+                    }
+                }
+            }
+    }
 }

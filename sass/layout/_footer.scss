@@ -22,29 +22,6 @@ footer {
     }
 }
 
-@media screen and (max-width:1024px) {
-    footer {
-        padding: 1rem;
-        width: 1024px;
-
-        p {
-            justify-content: center;
-            margin: 0;
-            padding: 1.5em;
-        }
-
-        div {
-            width: 100%;
-            justify-content: center;
-        }
-
-        i {
-            font-size: 3em;
-        }
-    }
-}
-
-
 @media screen and (max-width:391px) {
     footer {
         padding: 1rem;
@@ -64,4 +41,27 @@ footer {
             font-size: 3em;
         }
     }
+}
+
+@media only screen and (min-width: 392px) and (max-width: 1023px) {
+    
+    footer {
+            padding: 1rem;
+            width: 1024px;
+
+            p {
+                justify-content: center;
+                margin: 0;
+                padding: 1.5em;
+            }
+
+            div {
+                width: 100%;
+                justify-content: center;
+            }
+
+            i {
+                font-size: 3em;
+            }
+        }
 }
