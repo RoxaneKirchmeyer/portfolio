@@ -162,16 +162,15 @@ main figcaption {
   text-align: center;
   padding: 0.5em 0;
 }
-main #skills {
+main #skills article {
   display: flex;
   flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
 }
 main #skills img {
   width: 100%;
   height: 100%;
-}
-main #skills h2 {
-  padding-left: 2em;
 }
 
 @media screen and (max-width: 391px) {
