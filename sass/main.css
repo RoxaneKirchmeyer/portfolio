@@ -581,22 +581,22 @@ footer i {
     background-color: #8DA7BE;
   }
 }
-#myProgress {
+.myProgress {
   background-color: #d9d9d9;
   width: 100%;
   border: solid 2px #000000;
   padding: 0;
   position: relative;
 }
-#myProgress .simplon {
+.myProgress .simplon {
   display: flex;
   flex-wrap: wrap;
 }
-#myProgress .afci {
+.myProgress .afci {
   display: flex;
   flex-wrap: wrap;
 }
-#myProgress #afciBar {
+.myProgress #afciBar {
   background-color: #2C4B9D;
   width: 3%;
   font-family: "Montserrat", sans-serif;
@@ -606,7 +606,7 @@ footer i {
   font-size: 1.5rem;
   padding: 0;
 }
-#myProgress #afciBar {
+.myProgress #afciBar {
   width: 0;
   height: 100%;
   background-color: #2C4B9D;
@@ -620,7 +620,7 @@ footer i {
     width: 2%;
   }
 }
-#myProgress #simplonBar {
+.myProgress #simplonBar {
   background-color: #D02036;
   width: 100%;
   color: #FFFFFF;
@@ -630,7 +630,7 @@ footer i {
   font-size: 1.5rem;
   padding: 0;
 }
-#myProgress #simplonBar {
+.myProgress #simplonBar {
   width: 0;
   height: 100%;
   background-color: #D02036;
